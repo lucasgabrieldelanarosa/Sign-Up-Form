@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imgs/icon.png" type="image/x-icon">
+</head>
+<body>
+    <section id="main">
+        <div id="div-left">
+            <div class="credit">
+                <p>
+                    Photo by
+                    <a href="https://unsplash.com/@wistomsin">@Tom Barret</a> on
+                    <a href="https://unsplash.com"> Unsplash</a>.
+                </p>
+            </div>
+            <div class="image">
+                <img src="imgs/odinlogo.png" class="odin-logo"> 
+                <span>ODIN</span>
+            </div>
+        </div>
+
+        <div id="div-right">
+            <div class="main">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sing up <i>now </i> to get started.</p>
+                <p>You <i>know </i> you want to.</p>
+                <div class="contacts">
+                        <span>Let's do it!</span>
+                        <div class="form">
+                            <form action="#">
+                                <div class="input">
+                                    <label for="firstname">First Name</label>
+                                    <input placeholder="Your first name" type="text" autocomplete="off" id="firstname" required>
+                                </div>
+                                <div class="input">
+                                    <label for="lastname">Last Name</label>
+                                    <input placeholder="Your last name" type="text" autocomplete="off" id="lastname" required>
+                                </div>
+                                <div class="input">
+                                    <label for="email">Email</label>
+                                    <input placeholder="example@gmail.com" type="email" autocomplete="off" id="email" required>
+                                </div>
+                                <div class="input">
+                                    <label for="phone">Phone Number</label>
+                                    <input placeholder="22334455" type="tel" autocomplete="off" id="phone" required
+                                    pattern="[0-9]{8}" minlength="8" maxlength="8">
+                                </div>
+                                <div class="input">
+                                    <label for="password">Password</label>
+                                    <input placeholder="********" type="password" maxlength="16" autocomplete="off" id="password" required>
+                                </div>
+                                <div class="input">
+                                    <label for="confirmpassword">Confirm Password</label>
+                                    <input placeholder="********" type="password" maxlength="16" autocomplete="off" id="confirmpassword" required>
+                                </div>
+                    </div>
+                            <div class="loginbtn">
+                                <button type="submit">Create Account</button>
+                                <p>Already have an account? <a href="#">Login in</a></p>
+                            </div>
+                        </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
